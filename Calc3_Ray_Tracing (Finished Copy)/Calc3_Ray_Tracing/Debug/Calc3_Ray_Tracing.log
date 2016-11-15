@@ -1,7 +1,7 @@
-﻿Build started 11/12/2016 2:36:01 PM.
+﻿Build started 11/14/2016 7:11:10 PM.
      1>Project "I:\_Files\_SCHOOL\MTH233 (Calc 3)\Calc3_Ray_Tracing (Finished Copy)\Calc3_Ray_Tracing\Calc3_Ray_Tracing.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt Capsule.cpp MainClass.cpp Sphere.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt MainClass.cpp
          MainClass.cpp
          Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\iostream
          Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream
@@ -323,12 +323,7 @@
          Note: including file:   i:\_files\_school\mth233 (calc 3)\calc3_ray_tracing (finished copy)\calc3_ray_tracing\Point.h
          Note: including file:   i:\_files\_school\mth233 (calc 3)\calc3_ray_tracing (finished copy)\calc3_ray_tracing\Ray.h
          Note: including file:  i:\_files\_school\mth233 (calc 3)\calc3_ray_tracing (finished copy)\calc3_ray_tracing\Sphere.h
-     1>i:\_files\_school\mth233 (calc 3)\calc3_ray_tracing (finished copy)\calc3_ray_tracing\mainclass.cpp(33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-     1>i:\_files\_school\mth233 (calc 3)\calc3_ray_tracing (finished copy)\calc3_ray_tracing\mainclass.cpp(90): warning C4018: '<': signed/unsigned mismatch
-         Generating Code...
-         Skipping... (no relevant changes detected)
-         Sphere.cpp
-         Capsule.cpp
+     1>i:\_files\_school\mth233 (calc 3)\calc3_ray_tracing (finished copy)\calc3_ray_tracing\mainclass.cpp(84): warning C4018: '<': signed/unsigned mismatch
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\_Files\_SCHOOL\MTH233 (Calc 3)\Calc3_Ray_Tracing (Finished Copy)\Debug\Calc3_Ray_Tracing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"I:\_Files\_SCHOOL\MTH233 (Calc 3)\Calc3_Ray_Tracing (Finished Copy)\Debug\Calc3_Ray_Tracing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\_Files\_SCHOOL\MTH233 (Calc 3)\Calc3_Ray_Tracing (Finished Copy)\Debug\Calc3_Ray_Tracing.lib" /MACHINE:X86 Debug\Capsule.obj
          Debug\Direction.obj
@@ -341,4 +336,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.89
+Time Elapsed 00:00:02.86
