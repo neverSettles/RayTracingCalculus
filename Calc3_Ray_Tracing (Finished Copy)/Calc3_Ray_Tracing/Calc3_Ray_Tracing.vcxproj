@@ -148,7 +148,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Capsule.h" />
+    <ClInclude Include="Box.h" />
     <ClInclude Include="Direction.h" />
+    <ClInclude Include="Plane.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Ray.h" />
     <ClInclude Include="Shape.h" />
@@ -156,8 +158,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Capsule.cpp" />
+    <ClCompile Include="Box.cpp" />
     <ClCompile Include="Direction.cpp" />
     <ClCompile Include="MainClass.cpp" />
+    <ClCompile Include="Plane.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Ray.cpp" />
     <ClCompile Include="Sphere.cpp" />
